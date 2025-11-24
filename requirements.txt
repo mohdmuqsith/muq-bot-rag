@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-community
+faiss-cpu
+python-pptx
+pypdf
+python-docx
+google-generativeai
+unstructured
+tiktoken
