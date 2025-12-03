@@ -9,3 +9,4 @@ google-generativeai
 unstructured
 tiktoken
 PyPDF2
+langchain-google-genai
