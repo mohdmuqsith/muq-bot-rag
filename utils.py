@@ -4,9 +4,10 @@ from pptx import Presentation
 from docx import Document
 from PyPDF2 import PdfReader
 
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+# Updated imports for newer LangChain versions
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 
 
 # ---------------- DOCUMENT LOADERS ---------------- #
@@ -119,4 +120,3 @@ def compute_similarity_scores(query, docs, embedding_model):
         scores.append(sim)
 
     return scores
-
