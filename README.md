@@ -36,11 +36,10 @@ This project also demonstrates **RDF-like semantic triple extraction**, **semant
 ## 📁 Project Structure
 
 ```
-Logic_Demo/
+muq-bot-rag/
 │
 ├── app.py            # Main Streamlit application
 ├── utils.py          # Loaders, chunking, FAISS helpers
-├── test.py           # Gemini API test script
 ├── requirements.txt # Dependencies
 └── README.md         # Project documentation
 ```
@@ -142,17 +141,7 @@ http://localhost:8501
 
 ---
 
-## ✅ Testing Your Gemini API Key
 
-Use the built-in test script:
-
-```bash
-python test.py
-```
-
-This confirms that your API key and model access are working.
-
----
 
 ## ☁️ Deployment (Streamlit Cloud)
 
@@ -192,12 +181,6 @@ Make sure:
 - `.streamlit/secrets.toml` exists  
 - It is correctly indented  
 - No extra spaces or quotes  
-
----
-
-## 📄 License
-
-MIT License
 
 ---
 
