@@ -52,8 +52,8 @@ Logic_Demo/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/Logic_Demo.git
-cd Logic_Demo
+git clone https://github.com/mohdmuqsith/muq-bot-rag.git
+cd muq-bot-rag
 ```
 
 ---
